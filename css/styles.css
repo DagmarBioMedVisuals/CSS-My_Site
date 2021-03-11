@@ -1,0 +1,131 @@
+body {
+  background-color: #f6f6f6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Redressed', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border: 0;
+  border-top: 8px;
+  border-style: dotted;
+  margin: 100px auto;
+  width: 60px;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #d6e4f0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.comp-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.chilli-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 50px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/*************FOOTER************/
+.footer {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-text {
+  display: block;
+}
+
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.footer p {
+  color: #EAF6F6;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
